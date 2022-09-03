@@ -96,7 +96,7 @@ def st_ui():
     st.sidebar.subheader("Upload image to detect vehicles")
     uploaded_image = st.sidebar.file_uploader("Upload image", type=["png", "jpg"],
                                               accept_multiple_files=False, key=None,
-                                              help="Image to enhance its quality")
+                                              help="Image to detect vehicles")
     s_msg = st.empty()
     example_image = load_image('images/test.jpg')
     st.subheader("Input Image")
