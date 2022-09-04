@@ -26,7 +26,7 @@ It will classify vehicles according to:
     result = vehicle_recognition.cv_vehicle_detect(image_source).value
     result</pre>
 
-* It will return **np arrays** representing:
+* It will return **np array** representing:
 processed image indicating detected vehicles info.
 
 you can define this function to display output image:
