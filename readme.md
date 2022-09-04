@@ -21,6 +21,7 @@ It will classify vehicles according to:
     
 * Call the `image_super_resolution` end point, passing the image source to process it, you can pass image source either from **images/** directory or from valid **url** of the image
     <pre>
+    #image_source = "https://i.imgur.com/IvwQdz5.jpg"
     image_source = "images/car2.jpg"
     result = vehicle_recognition.cv_vehicle_detect(image_source).value
     result</pre>
