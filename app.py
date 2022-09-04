@@ -36,6 +36,14 @@ height_re, width_re = list(input_key_re.shape)[2:]
 
 
 def cv_vehicle_detect(image_source) -> np.ndarray:
+    '''
+    Detect and classify vehicles in raw image
+    :param
+    image_source(str): Valid image url or image object of the input image
+
+    :return
+    rgb_image(np.ndarray): processed image indicating detected vehicles info
+    '''
     # Define colors for boxes and descriptions.
     colors = {"red": (255, 0, 0), "green": (0, 255, 0)}
     # Convert the base image from BGR to RGB format.
