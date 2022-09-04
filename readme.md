@@ -19,7 +19,7 @@ It will classify vehicles according to:
     import pydaisi as pyd
     vehicle_recognition = pyd.Daisi("oghli/Vehicle Recognition")</pre>
     
-* Call the `image_super_resolution` end point, passing the image source to process it, you can pass image source either from **images/** directory or from valid **url** of the image
+* Call the `vehicle_recognition` end point, passing the image source to process it, you can pass image source either from **images/** directory or from valid **url** of the image
     <pre>
     #image_source = "https://i.imgur.com/IvwQdz5.jpg"
     image_source = "images/car2.jpg"
