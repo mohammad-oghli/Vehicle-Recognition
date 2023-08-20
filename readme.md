@@ -12,7 +12,7 @@ It will classify vehicles according to:
 * **Type**: (Car, Bus, Truck, Van)
 * **Color**: (White, Gray, Yellow, Red, Green, Blue, Black)
 
-### How to call it
+## How to call it
 * Load the Daisi
     <pre>
     import matplotlib.pyplot as plt
